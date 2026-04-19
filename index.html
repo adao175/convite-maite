@@ -528,14 +528,14 @@
 (function() {
   const c     = document.getElementById('insetos');
   const tipos = [
-    { emoji: '🦋', speed: .30, wobble: 20, size: [18, 24] },
-    { emoji: '🐝', speed: .50, wobble:  8, size: [16, 20] },
-    { emoji: '🐞', speed: .22, wobble:  6, size: [16, 19] },
-    { emoji: '🪲', speed: .18, wobble:  8, size: [15, 18] },
-    { emoji: '🌸', speed: .12, wobble: 25, size: [17, 22] },
+    { emoji: '🦋', speed: .30, wobble: 20, size: [14, 18] },
+    { emoji: '🐝', speed: .50, wobble:  8, size: [13, 16] },
+    { emoji: '🐞', speed: .22, wobble:  6, size: [13, 16] },
+    { emoji: '🪲', speed: .18, wobble:  8, size: [12, 15] },
+    { emoji: '🌸', speed: .12, wobble: 25, size: [13, 17] },
   ];
   const bugs = [];
-  const total = 18;
+  const total = 10;
 
   for (let i = 0; i < total; i++) {
     const tipo = tipos[i % tipos.length];
